@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GLKit/GLKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : GLKViewController{
+    GLuint vertexBufferID;
+    float _curRed;
+    BOOL _increasing;
+}
 
-
+@property (nonatomic,strong) GLKBaseEffect* baseEffect;
 @end
 

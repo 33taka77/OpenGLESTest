@@ -14,6 +14,17 @@
 		8172B1FE1B0D6C8300B0FE41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8172B1FD1B0D6C8300B0FE41 /* Images.xcassets */; };
 		8172B2011B0D6C8300B0FE41 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8172B1FF1B0D6C8300B0FE41 /* LaunchScreen.xib */; };
 		8172B20D1B0D6C8300B0FE41 /* OpenGLTestFromSingleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8172B20C1B0D6C8300B0FE41 /* OpenGLTestFromSingleViewTests.m */; };
+		8172B2171B0D6CFD00B0FE41 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8172B2161B0D6CFD00B0FE41 /* GLKit.framework */; };
+		8172B2191B0D6D1C00B0FE41 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8172B2181B0D6D1C00B0FE41 /* OpenGLES.framework */; };
+		8172B21B1B0D6D3200B0FE41 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8172B21A1B0D6D3200B0FE41 /* QuartzCore.framework */; };
+		8172B2231B0DA6DF00B0FE41 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8172B21C1B0DA6DF00B0FE41 /* background-music-aac.caf */; };
+		8172B2241B0DA6DF00B0FE41 /* pew-pew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8172B21D1B0DA6DF00B0FE41 /* pew-pew.wav */; };
+		8172B2251B0DA6DF00B0FE41 /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = 8172B21E1B0DA6DF00B0FE41 /* Player.png */; };
+		8172B2261B0DA6DF00B0FE41 /* Projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 8172B21F1B0DA6DF00B0FE41 /* Projectile.png */; };
+		8172B2271B0DA6DF00B0FE41 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 8172B2201B0DA6DF00B0FE41 /* Target.png */; };
+		8172B2281B0DA6DF00B0FE41 /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = 8172B2211B0DA6DF00B0FE41 /* YouLose.png */; };
+		8172B2291B0DA6DF00B0FE41 /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8172B2221B0DA6DF00B0FE41 /* YouWin.png */; };
+		8172B22C1B0DA78000B0FE41 /* SGGSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 8172B22B1B0DA78000B0FE41 /* SGGSprite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,18 @@
 		8172B2061B0D6C8300B0FE41 /* OpenGLTestFromSingleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenGLTestFromSingleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8172B20B1B0D6C8300B0FE41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8172B20C1B0D6C8300B0FE41 /* OpenGLTestFromSingleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLTestFromSingleViewTests.m; sourceTree = "<group>"; };
+		8172B2161B0D6CFD00B0FE41 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8172B2181B0D6D1C00B0FE41 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8172B21A1B0D6D3200B0FE41 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8172B21C1B0DA6DF00B0FE41 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "background-music-aac.caf"; path = "../background-music-aac.caf"; sourceTree = "<group>"; };
+		8172B21D1B0DA6DF00B0FE41 /* pew-pew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "pew-pew.wav"; path = "../pew-pew.wav"; sourceTree = "<group>"; };
+		8172B21E1B0DA6DF00B0FE41 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player.png; path = ../Player.png; sourceTree = "<group>"; };
+		8172B21F1B0DA6DF00B0FE41 /* Projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Projectile.png; path = ../Projectile.png; sourceTree = "<group>"; };
+		8172B2201B0DA6DF00B0FE41 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Target.png; path = ../Target.png; sourceTree = "<group>"; };
+		8172B2211B0DA6DF00B0FE41 /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YouLose.png; path = ../YouLose.png; sourceTree = "<group>"; };
+		8172B2221B0DA6DF00B0FE41 /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YouWin.png; path = ../YouWin.png; sourceTree = "<group>"; };
+		8172B22A1B0DA78000B0FE41 /* SGGSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGGSprite.h; sourceTree = "<group>"; };
+		8172B22B1B0DA78000B0FE41 /* SGGSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGSprite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8172B21B1B0D6D3200B0FE41 /* QuartzCore.framework in Frameworks */,
+				8172B2191B0D6D1C00B0FE41 /* OpenGLES.framework in Frameworks */,
+				8172B2171B0D6CFD00B0FE41 /* GLKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,9 @@
 		8172B1E41B0D6C8300B0FE41 = {
 			isa = PBXGroup;
 			children = (
+				8172B21A1B0D6D3200B0FE41 /* QuartzCore.framework */,
+				8172B2181B0D6D1C00B0FE41 /* OpenGLES.framework */,
+				8172B2161B0D6CFD00B0FE41 /* GLKit.framework */,
 				8172B1EF1B0D6C8300B0FE41 /* OpenGLTestFromSingleView */,
 				8172B2091B0D6C8300B0FE41 /* OpenGLTestFromSingleViewTests */,
 				8172B1EE1B0D6C8300B0FE41 /* Products */,
@@ -81,10 +110,19 @@
 		8172B1EF1B0D6C8300B0FE41 /* OpenGLTestFromSingleView */ = {
 			isa = PBXGroup;
 			children = (
+				8172B21C1B0DA6DF00B0FE41 /* background-music-aac.caf */,
+				8172B21D1B0DA6DF00B0FE41 /* pew-pew.wav */,
+				8172B21E1B0DA6DF00B0FE41 /* Player.png */,
+				8172B21F1B0DA6DF00B0FE41 /* Projectile.png */,
+				8172B2201B0DA6DF00B0FE41 /* Target.png */,
+				8172B2211B0DA6DF00B0FE41 /* YouLose.png */,
+				8172B2221B0DA6DF00B0FE41 /* YouWin.png */,
 				8172B1F41B0D6C8300B0FE41 /* AppDelegate.h */,
 				8172B1F51B0D6C8300B0FE41 /* AppDelegate.m */,
 				8172B1F71B0D6C8300B0FE41 /* ViewController.h */,
 				8172B1F81B0D6C8300B0FE41 /* ViewController.m */,
+				8172B22A1B0DA78000B0FE41 /* SGGSprite.h */,
+				8172B22B1B0DA78000B0FE41 /* SGGSprite.m */,
 				8172B1FA1B0D6C8300B0FE41 /* Main.storyboard */,
 				8172B1FD1B0D6C8300B0FE41 /* Images.xcassets */,
 				8172B1FF1B0D6C8300B0FE41 /* LaunchScreen.xib */,
@@ -199,8 +237,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8172B2231B0DA6DF00B0FE41 /* background-music-aac.caf in Resources */,
 				8172B1FC1B0D6C8300B0FE41 /* Main.storyboard in Resources */,
+				8172B2291B0DA6DF00B0FE41 /* YouWin.png in Resources */,
+				8172B2251B0DA6DF00B0FE41 /* Player.png in Resources */,
+				8172B2261B0DA6DF00B0FE41 /* Projectile.png in Resources */,
+				8172B2271B0DA6DF00B0FE41 /* Target.png in Resources */,
+				8172B2281B0DA6DF00B0FE41 /* YouLose.png in Resources */,
 				8172B2011B0D6C8300B0FE41 /* LaunchScreen.xib in Resources */,
+				8172B2241B0DA6DF00B0FE41 /* pew-pew.wav in Resources */,
 				8172B1FE1B0D6C8300B0FE41 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +266,7 @@
 			files = (
 				8172B1F91B0D6C8300B0FE41 /* ViewController.m in Sources */,
 				8172B1F61B0D6C8300B0FE41 /* AppDelegate.m in Sources */,
+				8172B22C1B0DA78000B0FE41 /* SGGSprite.m in Sources */,
 				8172B1F31B0D6C8300B0FE41 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
